@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
     public int currentAmmo;//ammo ammount
 
     public Animator gunAnim;//reference to the gun animation
+    public Animator anim;
 
     public int currentHealth;//player current health
     public int maxHealth = 100;//player max health
@@ -29,6 +30,8 @@ public class PlayerController : MonoBehaviour
     private bool hasDied;
 
     public Text healthText, ammoText;//values to display on hud for amount of ammon and health
+
+    public bool headbob;//enable or disable headbob
 
     private void Awake()
     {
@@ -86,12 +89,28 @@ public class PlayerController : MonoBehaviour
                     else
                     {
 
-                        Debug.Log("I'm looking at nothing");
+                        //Debug.Log("I'm looking at nothing");
                     }
                     currentAmmo--;
                     gunAnim.SetTrigger("Shoot");
                     updateAmmoUI();
                 }
+            }
+
+            if (headbob)//if enabled
+            {
+                if (moveInput != Vector2.zero)//if player is moving headbob
+                {
+                    anim.SetBool("IsMoving", true);
+                }
+                else
+                {
+                    anim.SetBool("IsMoving", false);
+                }
+            }
+            else if (!headbob)//if disabled
+            {
+                anim.SetBool("IsMoving", false);
             }
         }
     }
