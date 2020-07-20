@@ -25,6 +25,8 @@ public class AmmoPickup : MonoBehaviour
             PlayerController.instance.currentAmmo += ammoAmount;
             PlayerController.instance.updateAmmoUI();
 
+            AudioController.instance.PlayAmmoPickup();//play sound for ammo pickup
+
             Destroy(gameObject);
         }
 

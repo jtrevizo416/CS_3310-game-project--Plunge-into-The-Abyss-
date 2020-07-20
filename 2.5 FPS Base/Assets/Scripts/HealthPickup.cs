@@ -24,7 +24,11 @@ public class HealthPickup : MonoBehaviour
         {
             PlayerController.instance.AddHealth(healthAmount);
 
+            AudioController.instance.PlayHealthPickup();//play sound when picking up health
+
             Destroy(gameObject);
+
+            
         }
 
     }

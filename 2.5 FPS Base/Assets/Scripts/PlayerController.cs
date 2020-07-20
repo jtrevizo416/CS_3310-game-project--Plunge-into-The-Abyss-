@@ -85,6 +85,8 @@ public class PlayerController : MonoBehaviour
                         {
                             hit.transform.parent.GetComponent<EnemyController>().TakeDamage();
                         }
+
+                        AudioController.instance.PlayGunshot();//play gunshot sound when player shoots
                     }
                     else
                     {
@@ -127,6 +129,8 @@ public class PlayerController : MonoBehaviour
         }
 
         healthText.text = currentHealth.ToString() + "%";//health text
+
+        AudioController.instance.PlayPlayerHurt();//When player takes damage play player hurt sound effect
     }
 
     public void AddHealth(int healAmount)//player function for healing

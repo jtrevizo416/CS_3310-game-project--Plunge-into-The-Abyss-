@@ -57,6 +57,12 @@ public class EnemyController : MonoBehaviour
         {
             Destroy(gameObject);//if health is 0 or below destroy the enemy object
             Instantiate(Explosion, transform.position, transform.rotation);//once enemy is killed instantiate explosion animation and face the player
+
+            AudioController.instance.PlayEnemyDeath();//play death sound when enemy dies
+        }
+        else 
+        {
+            AudioController.instance.PlayEnemyShot();//play shot sound when enemy takes damage
         }
     }
 }

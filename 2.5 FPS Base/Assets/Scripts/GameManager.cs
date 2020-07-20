@@ -22,6 +22,11 @@ public class GameManager : MonoBehaviour
         {
             LockCursor();
         }
+
+        if (PlayerController.instance.currentHealth <= 0)//if player dies unlock cursor to be able to restart
+        {
+            UnlockCursor();
+        }
     }
 
     private void LockCursor()//Lock cursor to window and make it dissapear when playing the game
