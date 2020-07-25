@@ -13932,6 +13932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc3e8bfc5314dcc44b06c8c685180c4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPauseMenu: 0
 --- !u!95 &1446151297
 Animator:
   serializedVersion: 3
