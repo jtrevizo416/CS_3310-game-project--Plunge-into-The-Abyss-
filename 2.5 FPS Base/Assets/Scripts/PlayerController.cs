@@ -29,7 +29,15 @@ public class PlayerController : MonoBehaviour
     public GameObject deadScreen;//game over screen
     private bool hasDied;
 
-    public Text healthText, ammoText;//values to display on hud for amount of ammon and health
+
+
+
+    public Text ammoText;//values to display on hud for amount of ammon and health
+    
+
+    public HealthBar healthBar; // Health bar slider class
+    public HP_TEXT hptext;  //TEXT HP
+
 
     public bool headbob;//enable or disable headbob
 
@@ -41,9 +49,13 @@ public class PlayerController : MonoBehaviour
     void Start()// Start is called before the first frame update
     {
         currentHealth = maxHealth;
-        healthText.text = currentHealth.ToString() + "%";//health text
+        healthBar.SetMaxHealth(maxHealth);
+        hptext.SetMaxHealthHP(maxHealth);
 
+        
+        //healthText.text = currentHealth.ToString() + "%";//health text
         ammoText.text = currentAmmo.ToString();//Ammo Text
+        
 
     }
 
@@ -70,35 +82,37 @@ public class PlayerController : MonoBehaviour
 
             //shooting mechanics
             //GetMouseButton For Full Auto, GetMouseButtonDown for Semi Auto
-            if (Input.GetMouseButtonDown(0))
+            if (!PauseMenu.isPaused)
             {
-                if (currentAmmo > 0)
+                if (Input.GetMouseButtonDown(0))
                 {
-                    Ray ray = viewCam.ViewportPointToRay(new Vector3(.5f, .5f, 0f));//create raycast for shooting
-                    RaycastHit hit;
-                    if (Physics.Raycast(ray, out hit))// if something is hit enter loop
+                    if (currentAmmo > 0)
                     {
-                        //Debug.Log("I'm looking at " + hit.transform.name);
-                        Instantiate(bulletImpact, hit.point, transform.rotation);
-
-                        if (hit.transform.tag == "Enemy")
+                        Ray ray = viewCam.ViewportPointToRay(new Vector3(.5f, .5f, 0f));//create raycast for shooting
+                        RaycastHit hit;
+                        if (Physics.Raycast(ray, out hit))// if something is hit enter loop
                         {
-                            hit.transform.parent.GetComponent<EnemyController>().TakeDamage();
+                            //Debug.Log("I'm looking at " + hit.transform.name);
+                            Instantiate(bulletImpact, hit.point, transform.rotation);
+
+                            if (hit.transform.tag == "Enemy")
+                            {
+                                hit.transform.parent.GetComponent<EnemyController>().TakeDamage();
+                            }
+
+                            AudioController.instance.PlayGunshot();//play gunshot sound when player shoots
                         }
+                        else
+                        {
 
-                        AudioController.instance.PlayGunshot();//play gunshot sound when player shoots
+                            //Debug.Log("I'm looking at nothing");
+                        }
+                        currentAmmo--;
+                        gunAnim.SetTrigger("Shoot");
+                        updateAmmoUI();
                     }
-                    else
-                    {
-
-                        //Debug.Log("I'm looking at nothing");
-                    }
-                    currentAmmo--;
-                    gunAnim.SetTrigger("Shoot");
-                    updateAmmoUI();
                 }
             }
-
             if (headbob)//if enabled
             {
                 if (moveInput != Vector2.zero)//if player is moving headbob
@@ -128,7 +142,9 @@ public class PlayerController : MonoBehaviour
             currentHealth = 0;
         }
 
-        healthText.text = currentHealth.ToString() + "%";//health text
+        
+        healthBar.SetHealth(currentHealth);
+        hptext.SetHealthHP(currentHealth);
 
         AudioController.instance.PlayPlayerHurt();//When player takes damage play player hurt sound effect
     }
@@ -140,7 +156,9 @@ public class PlayerController : MonoBehaviour
         {
             currentHealth = maxHealth;
         }
-        healthText.text = currentHealth.ToString() + "%";
+        
+        healthBar.SetHealth(currentHealth);
+        hptext.SetHealthHP(currentHealth);
     }
 
     public void updateAmmoUI()
