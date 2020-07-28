@@ -1,0 +1,1376 @@
+fileFormatVersion: 2
+guid: 4a17c04df3e2b9c43bb2cc688a32ff4e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5735926030138288741
+    second: ImpForwardFacing0
+  - first:
+      213: 5035710489688336900
+    second: ImpLeftFacing0
+  - first:
+      213: -6476581739292674058
+    second: ImpLeftSlightAngle0
+  - first:
+      213: 7697106531012718538
+    second: ImpAngled0
+  - first:
+      213: -4272004698508349016
+    second: ImpBackFacing0
+  - first:
+      213: 2203231546763481237
+    second: ImpForwardFacing1
+  - first:
+      213: -5883176737152319318
+    second: ImpLeftFacing1
+  - first:
+      213: 7948806242373263723
+    second: ImpLeftSlightAngle1
+  - first:
+      213: 8988747509210560658
+    second: ImpAngled1
+  - first:
+      213: 5834344530663913076
+    second: ImpBackFacing1
+  - first:
+      213: 2895867494309481817
+    second: ImpForwardFacing2
+  - first:
+      213: 791983612456952360
+    second: ImpLeftFacing2
+  - first:
+      213: -7661137898186184327
+    second: ImpLeftSlightAngle2
+  - first:
+      213: 6078735046375860396
+    second: ImpAngled2
+  - first:
+      213: -4371875446203159748
+    second: ImpBackFacing2
+  - first:
+      213: 4347340578789035778
+    second: ImpForwardFacing3
+  - first:
+      213: -5523173937438210496
+    second: ImpLeftFacing3
+  - first:
+      213: 2551208399413842456
+    second: ImpLeftSlightAngle3
+  - first:
+      213: -1630161019108396444
+    second: ImpAngled3
+  - first:
+      213: 4828302574967660539
+    second: ImpBackFacing3
+  - first:
+      213: 1196611973012396760
+    second: ImpForwardFacingAttack1
+  - first:
+      213: 1131582304284387071
+    second: ImpLeftFacingAttack0
+  - first:
+      213: -45458486512276714
+    second: ImpLeftSlightAngleAttack0
+  - first:
+      213: 3999156376230647745
+    second: ImpAngleAttack0
+  - first:
+      213: -8807461579283257728
+    second: ImpBackFacingAttack0
+  - first:
+      213: -6328584207419238229
+    second: ImpForwardFacingAttack2
+  - first:
+      213: -8664843681465288815
+    second: ImpLeftFacingAttack1
+  - first:
+      213: -8506020103515821236
+    second: ImpLeftSlightAngleAttack1
+  - first:
+      213: -2417335102408064014
+    second: ImpAngleAttack1
+  - first:
+      213: 2089542537533158775
+    second: ImpBackFacingAttack1
+  - first:
+      213: -2020574428818986744
+    second: ImpForwardFacingAttack3
+  - first:
+      213: 1731985092296760767
+    second: ImpLeftFacingAttack2
+  - first:
+      213: -6878849450417119048
+    second: ImpLeftSlightAngleAttack2
+  - first:
+      213: -4121131765763763574
+    second: ImpAngleAttack2
+  - first:
+      213: 8608296770643374959
+    second: ImpBackFacingAttack2
+  - first:
+      213: 1569933210296100129
+    second: ImpHurt0
+  - first:
+      213: 7110790533517935993
+    second: ImpHurt1
+  - first:
+      213: 1154054548182837928
+    second: impHurt2
+  - first:
+      213: -1602133416076664329
+    second: ImpHurt3
+  - first:
+      213: -8706291385977142464
+    second: ImpHurt4
+  - first:
+      213: 109860087709064361
+    second: ImpDeath0
+  - first:
+      213: -7326939334935846438
+    second: ImpDeath1
+  - first:
+      213: 5357076598716376902
+    second: ImpDeath2
+  - first:
+      213: -6869122153119863070
+    second: ImpDeath3
+  - first:
+      213: -8516305646066714517
+    second: ImpDeath4
+  - first:
+      213: 7733211080372164678
+    second: ImpExplosion0
+  - first:
+      213: -1675712265750861192
+    second: ImpExplosion1
+  - first:
+      213: 5267442676555548808
+    second: ImpExplosion2
+  - first:
+      213: 7431457335135123347
+    second: ImpExplosion3
+  - first:
+      213: 5577418501320398065
+    second: impExplosion4
+  - first:
+      213: 7577137701281360464
+    second: ImpExplosion5
+  - first:
+      213: -8834267403542411910
+    second: ImpExplosion6
+  - first:
+      213: 9139496796752676880
+    second: ImpExplosion7
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ImpForwardFacing0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 830
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95d0b37aa5e560b0800000000000000
+      internalID: -5735926030138288741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpLeftFacing0
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 833
+        width: 49
+        height: 61
+      alignment: 9
+      pivot: {x: 0.49999964, y: 0.499998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ae491920072e540800000000000000
+      internalID: 5035710489688336900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpLeftSlightAngle0
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 833
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7bda6f83f8e16a0800000000000000
+      internalID: -6476581739292674058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpAngled0
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 834
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf2a53eb9d91da60800000000000000
+      internalID: 7697106531012718538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpBackFacing0
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 834
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a13c9a5c5ac6b4c0800000000000000
+      internalID: -4272004698508349016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpForwardFacing1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 741
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59095c62b63739e10800000000000000
+      internalID: 2203231546763481237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpLeftFacing1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 741
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0c13f8de1ca5ea0800000000000000
+      internalID: -5883176737152319318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpLeftSlightAngle1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 746
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61e011b925df4e60800000000000000
+      internalID: 7948806242373263723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpAngled1
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 751
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2983c263c327ebc70800000000000000
+      internalID: 8988747509210560658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpBackFacing1
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 752
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476377f5071c7f050800000000000000
+      internalID: 5834344530663913076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpForwardFacing2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 648
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95dcae2a420303820800000000000000
+      internalID: 2895867494309481817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpLeftFacing2
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 649
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8226d6046e0bdfa00800000000000000
+      internalID: 791983612456952360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpLeftSlightAngle2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 655
+        width: 49
+        height: 61
+      alignment: 9
+      pivot: {x: 0.41808152, y: 0.499999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979645b0cab2ea590800000000000000
+      internalID: -7661137898186184327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpAngled2
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 656
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca863f271510c5450800000000000000
+      internalID: 6078735046375860396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpBackFacing2
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 659
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3beec2e17af353c0800000000000000
+      internalID: -4371875446203159748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpForwardFacing3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 558
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f8c54293bd45c30800000000000000
+      internalID: 4347340578789035778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpLeftFacing3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 560
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046cc42219eb953b0800000000000000
+      internalID: -5523173937438210496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpLeftSlightAngle3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 567
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8121e0bb586b76320800000000000000
+      internalID: 2551208399413842456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpAngled3
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 568
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462fa59a0318069e0800000000000000
+      internalID: -1630161019108396444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpBackFacing3
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 569
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff1d094c93910340800000000000000
+      internalID: 4828302574967660539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpForwardFacingAttack1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 465
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da1261ef383b9010800000000000000
+      internalID: 1196611973012396760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpLeftFacingAttack0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 469
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff62df04c1034bf00800000000000000
+      internalID: 1131582304284387071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpLeftSlightAngleAttack0
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 475
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ba8635fbf7e5ff0800000000000000
+      internalID: -45458486512276714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpAngleAttack0
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 478
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c75776298bdf7730800000000000000
+      internalID: 3999156376230647745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpBackFacingAttack0
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 476
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086abe98b5c95c580800000000000000
+      internalID: -8807461579283257728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpForwardFacingAttack2
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 377
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba811a1913a5c28a0800000000000000
+      internalID: -6328584207419238229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpLeftFacingAttack1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 378
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19739fb749a40c780800000000000000
+      internalID: -8664843681465288815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpLeftSlightAngleAttack1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 383
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4bab9d58cb84f980800000000000000
+      internalID: -8506020103515821236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpAngleAttack1
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 385
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f382ed2886e37ed0800000000000000
+      internalID: -2417335102408064014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpBackFacingAttack1
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 386
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7757bb4fddb8ffc10800000000000000
+      internalID: 2089542537533158775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpForwardFacingAttack3
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 288
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809a100334a75f3e0800000000000000
+      internalID: -2020574428818986744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpLeftFacingAttack2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 289
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdde96d34f390810800000000000000
+      internalID: 1731985092296760767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpLeftSlightAngleAttack2
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 293
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b02f7cdeda6980a0800000000000000
+      internalID: -6878849450417119048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpAngleAttack2
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 297
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8292156e7ccec6c0800000000000000
+      internalID: -4121131765763763574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpBackFacingAttack2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 295
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63375fdd40d67770800000000000000
+      internalID: 8608296770643374959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpHurt0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 201
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125a9c8dfe589c510800000000000000
+      internalID: 1569933210296100129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpHurt1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 200
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9750c8ec05a9ea260800000000000000
+      internalID: 7110790533517935993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impHurt2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 199
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aaacd34f76040010800000000000000
+      internalID: 1154054548182837928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpHurt3
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 200
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1a7f3852414c9e0800000000000000
+      internalID: -1602133416076664329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpHurt4
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 199
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0430ac3cc1a0d2780800000000000000
+      internalID: -8706291385977142464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDeath0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 103
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac54eeea2d468100800000000000000
+      internalID: 109860087709064361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDeath1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 107
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1ef42ae7b715a90800000000000000
+      internalID: -7326939334935846438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDeath2
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 111
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6472c0598c8285a40800000000000000
+      internalID: 5357076598716376902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDeath3
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 120
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee2680cbc9fba0a0800000000000000
+      internalID: -6869122153119863070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDeath4
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 143
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b683a8fd22100d980800000000000000
+      internalID: -8516305646066714517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpExplosion0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 15
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64892ba5182e15b60800000000000000
+      internalID: 7733211080372164678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpExplosion1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 10
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87aa726929caeb8e0800000000000000
+      internalID: -1675712265750861192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpExplosion2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 10
+        width: 55
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88883dac437b91940800000000000000
+      internalID: 5267442676555548808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpExplosion3
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 10
+        width: 58
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3973330a217d12760800000000000000
+      internalID: 7431457335135123347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impExplosion4
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 28
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4d4e69398f66d40800000000000000
+      internalID: 5577418501320398065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpExplosion5
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 38
+        width: 60
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a681b0896672960800000000000000
+      internalID: 7577137701281360464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpExplosion6
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 40
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75ca093a90666580800000000000000
+      internalID: -8834267403542411910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpExplosion7
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 53
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018834cd9e306de70800000000000000
+      internalID: 9139496796752676880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
