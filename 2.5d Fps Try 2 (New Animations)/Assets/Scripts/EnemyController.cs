@@ -18,6 +18,7 @@ public class EnemyController : MonoBehaviour
     private float shotCounter;
     public GameObject Bullet;
     public Transform firePoint;
+    private int damageAmount;
 
     // Start is called before the first frame update
     void Start()
@@ -50,9 +51,9 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    public void TakeDamage()
+    public void TakeDamage(int damage)
     {
-        health--;
+        health -= damage;
         if (health <= 0)
         {
             Destroy(gameObject);//if health is 0 or below destroy the enemy object
@@ -65,4 +66,9 @@ public class EnemyController : MonoBehaviour
             AudioController.instance.PlayEnemyShot();//play shot sound when enemy takes damage
         }
     }
+
+    //public void SetDamageAmount(int damage)
+    //{
+    //    damageAmount = damage;
+    //}
 }

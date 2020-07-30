@@ -18,10 +18,10 @@ public class PlayerController : MonoBehaviour
 
     public Camera viewCam; //Reference to the player camera
 
-    public GameObject bulletImpact;//reference for bullet impact
-    public int currentAmmo;//ammo ammount
+   // public GameObject bulletImpact;//reference for bullet impact
+   // public int currentAmmo;//ammo ammount
 
-    public Animator gunAnim;//reference to the gun animation
+   // public Animator gunAnim;//reference to the gun animation
     public Animator anim;//reference to headbob animation
 
     public int currentHealth;//player current health
@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
     public GameObject deadScreen;//game over screen
     private bool hasDied;
 
-    public Text healthText, ammoText;//values to display on hud for amount of ammon and health
+    public Text healthText; //ammoText;//values to display on hud for amount of ammon and health
 
     public bool headbob;//enable or disable headbob
 
@@ -45,7 +45,7 @@ public class PlayerController : MonoBehaviour
         currentHealth = maxHealth;
         healthText.text = currentHealth.ToString() + "%";//health text
 
-        ammoText.text = currentAmmo.ToString();//Ammo Text
+        //ammoText.text = currentAmmo.ToString();//Ammo Text
 
         
     }
@@ -73,35 +73,35 @@ public class PlayerController : MonoBehaviour
 
             //shooting mechanics
             //GetMouseButton For Full Auto, GetMouseButtonDown for Semi Auto
-            if (Input.GetMouseButtonDown(0))
-            {
-                if (currentAmmo > 0)
-                {
-                    Ray ray = viewCam.ViewportPointToRay(new Vector3(.5f, .5f, 0f));//create raycast for shooting
-                    RaycastHit hit;
-                    if (Physics.Raycast(ray, out hit))// if something is hit enter loop
-                    {
+            //if (Input.GetMouseButtonDown(0))
+            //{
+            //    if (currentAmmo > 0)
+            //    {
+            //        Ray ray = viewCam.ViewportPointToRay(new Vector3(.5f, .5f, 0f));//create raycast for shooting
+            //        RaycastHit hit;
+            //        if (Physics.Raycast(ray, out hit))// if something is hit enter loop
+            //        {
                         
-                        //Debug.Log("I'm looking at " + hit.transform.name);
-                        Instantiate(bulletImpact, hit.point, transform.rotation);
+            //            //Debug.Log("I'm looking at " + hit.transform.name);
+            //            Instantiate(bulletImpact, hit.point, transform.rotation);
 
-                        if (hit.transform.tag == "Enemy")
-                        {
-                            hit.transform.parent.GetComponent<EnemyController>().TakeDamage();
-                        }
+            //            if (hit.transform.tag == "Enemy")
+            //            {
+            //                hit.transform.parent.GetComponent<EnemyController>().TakeDamage();
+            //            }
 
-                    }
-                    else
-                    {
+            //        }
+            //        else
+            //        {
 
-                        //Debug.Log("I'm looking at nothing");
-                    }
-                    currentAmmo--;
-                    AudioController.instance.PlayGunshot();//play gunshot sound when player shoots
-                    gunAnim.SetTrigger("Fire");
-                    updateAmmoUI();
-                }
-            }
+            //            //Debug.Log("I'm looking at nothing");
+            //        }
+            //        currentAmmo--;
+            //        AudioController.instance.PlayGunshot();//play gunshot sound when player shoots
+            //        gunAnim.SetTrigger("Fire");
+            //        updateAmmoUI();
+            //    }
+            //}
 
            
 
@@ -149,8 +149,8 @@ public class PlayerController : MonoBehaviour
         healthText.text = currentHealth.ToString() + "%";
     }
 
-    public void updateAmmoUI()
-    {
-        ammoText.text = currentAmmo.ToString();//Ammo Text
-    }
+    //public void updateAmmoUI()
+    //{
+    //    ammoText.text = currentAmmo.ToString();//Ammo Text
+    //}
 }

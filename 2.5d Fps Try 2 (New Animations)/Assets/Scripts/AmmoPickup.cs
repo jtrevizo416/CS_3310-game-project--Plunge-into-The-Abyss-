@@ -5,6 +5,7 @@ using UnityEngine;
 public class AmmoPickup : MonoBehaviour
 {
     public int ammoAmount = 25;
+   
 
     // Start is called before the first frame update
     void Start()
@@ -22,8 +23,8 @@ public class AmmoPickup : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            PlayerController.instance.currentAmmo += ammoAmount;
-            PlayerController.instance.updateAmmoUI();
+            WeaponController.instance.currentAmmo += ammoAmount;
+            WeaponController.instance.updateAmmoUI();
 
             AudioController.instance.PlayAmmoPickup();//play sound for ammo pickup
 

@@ -17,35 +17,35 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))//if user presses escape key unlock the cursor
-        {
-            UnlockCursor();
-        }
+       // if (Input.GetKeyDown(KeyCode.Escape))//if user presses escape key unlock the cursor
+       // {
+       //     UnlockCursor();
+       // }
 
-        if (Input.GetMouseButton(0))//if user clicks on window relock the cursor
-        {
-            LockCursor();
-        }
+       // if (Input.GetMouseButton(0))//if user clicks on window relock the cursor
+       // {
+       //     LockCursor();
+       // }
 
-        if (PlayerController.instance.currentHealth <= 0)//if player dies unlock cursor to be able to restart
-        {
-            UnlockCursor();
-        }
+       // if (PlayerController.instance.currentHealth <= 0)//if player dies unlock cursor to be able to restart
+       // {
+       //     UnlockCursor();
+       // }
 
-        if (Input.GetKey(KeyCode.P))
-        {
-            isPauseMenu = true;
-        }
+       // if (Input.GetKey(KeyCode.P))
+       // {
+       //     isPauseMenu = true;
+       // }
 
-        if (isPauseMenu == true)
-        {
-            UnlockCursor();
-        }
+       // if (isPauseMenu == true)
+       // {
+       //     UnlockCursor();
+       // }
 
-        if (isPauseMenu == false)
-        {
-            LockCursor();
-        }
+       // //if (isPauseMenu == false)
+       //// {
+       //     LockCursor();
+       // }
         
     }
 
