@@ -33,7 +33,10 @@ public class PlayerController : MonoBehaviour
 
     public bool headbob;//enable or disable headbob
 
-    
+    public HealthBar healthBar; // Health bar slider class
+    public HP_TEXT hptext;//TEXT HP
+
+
 
     private void Awake()
     {
@@ -134,19 +137,24 @@ public class PlayerController : MonoBehaviour
             currentHealth = 0;
         }
 
-        healthText.text = currentHealth.ToString() + "%";//health text
+        healthBar.SetHealth(currentHealth);
+        hptext.SetHealthHP(currentHealth);
 
         AudioController.instance.PlayPlayerHurt();//When player takes damage play player hurt sound effect
     }
 
     public void AddHealth(int healAmount)//player function for healing
     {
-        currentHealth += healAmount;
-        if (currentHealth > maxHealth)
         {
-            currentHealth = maxHealth;
+            currentHealth += healAmount;
+            if (currentHealth > maxHealth)
+            {
+                currentHealth = maxHealth;
+            }
+
+            healthBar.SetHealth(currentHealth);
+            hptext.SetHealthHP(currentHealth);
         }
-        healthText.text = currentHealth.ToString() + "%";
     }
 
     //public void updateAmmoUI()
