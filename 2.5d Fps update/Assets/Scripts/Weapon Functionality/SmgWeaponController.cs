@@ -32,7 +32,7 @@ public class SmgWeaponController : MonoBehaviour
     private void Start()
     {
         ammoText.text = currentAmmo.ToString();//Ammo Text
-        enemy = GameObject.Find("Enemy").GetComponent<EnemyController>();
+        //enemy = GameObject.Find("Enemy").GetComponent<EnemyController>();
 
     }
 

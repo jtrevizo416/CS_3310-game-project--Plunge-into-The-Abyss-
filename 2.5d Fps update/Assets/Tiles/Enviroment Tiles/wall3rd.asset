@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
+  m_Name: wall3rd
+  m_EditorClassIdentifier: 
+  m_DefaultSprite: {fileID: 21300000, guid: f926333df3faa4909a87c08b5c3f80ef, type: 3}
+  m_DefaultGameObject: {fileID: 3752334272365389057, guid: 352f76f1b4c1b4f9aa0beb3fbf48c173,
+    type: 3}
+  m_DefaultColliderType: 1
+  m_TilingRules: []

@@ -5,9 +5,10 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     public int health = 3;//enemy health
-    public GameObject Explosion;//reference to explosion prefab
-
+   // public GameObject Explosion;//reference to explosion prefab
+    public Animator anim;
     public float playerRange = 10f;//range that the player has to be to enter attack mode
+    public GameObject Death;
 
     public Rigidbody2D theRB;//rigidbody reference
 
@@ -19,11 +20,29 @@ public class EnemyController : MonoBehaviour
     public GameObject Bullet;
     public Transform firePoint;
     private int damageAmount;
+    public bool isReady;
+    public bool death = false;
+    EnemyController enemy;
 
     // Start is called before the first frame update
     void Start()
     {
         
+    }
+
+    public void DeathAnimationDone()
+    {
+        death = true;
+    }
+
+    public void IsReady()
+    {
+        isReady = true;
+    }
+
+    public void IsNotReady()
+    {
+        isReady = false;
     }
 
     // Update is called once per frame
@@ -35,11 +54,12 @@ public class EnemyController : MonoBehaviour
 
             theRB.velocity = playerDirection.normalized * moveSpeed;//set velocity with the maximum of 1 for the player direction value to stop enemy from moving too fast
 
-            if (shouldShoot)
+            if (shouldShoot && isReady && !death)
             {
                 shotCounter -= Time.deltaTime;
                 if (shotCounter <= 0)
                 {
+                    anim.SetTrigger("Attack");
                     Instantiate(Bullet, firePoint.position, firePoint.rotation);
                     shotCounter = fireRate;
                 }
@@ -56,11 +76,14 @@ public class EnemyController : MonoBehaviour
         health -= damage;
         if (health <= 0)
         {
-            Destroy(gameObject);//if health is 0 or below destroy the enemy object
-            Instantiate(Explosion, transform.position, transform.rotation);//once enemy is killed instantiate explosion animation and face the player
-
+            Destroy(gameObject);
+            Instantiate(Death, transform.position, transform.rotation);
+            //Instantiate(Explosion, transform.position, transform.rotation);//once enemy is killed instantiate explosion animation and face the player
             AudioController.instance.PlayEnemyDeath();//play death sound when enemy dies
+
+            
         }
+
         else 
         {
             AudioController.instance.PlayEnemyShot();//play shot sound when enemy takes damage
