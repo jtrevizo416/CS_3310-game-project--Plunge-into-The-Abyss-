@@ -1,0 +1,142 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class WeaponController : MonoBehaviour
+{
+    public int gunDamage;
+    public int currentAmmo;
+    public GameObject bulletImpact;
+    public Camera viewCam;
+    public PlayerController Player;
+    //public EnemyController Enemy;
+    private bool hasDied;
+    public Animator gunAnim;
+    public Text ammoText;
+    private EnemyController enemy;
+    public static WeaponController instance;
+    public bool isFullAuto;
+    private float nextfire = 0.0f;
+
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        ammoText.text = currentAmmo.ToString();//Ammo Text
+        enemy = GameObject.Find("Enemy").GetComponent<EnemyController>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        //WeaponDamage();
+        DeathCheck();
+        if (hasDied == false)
+        {
+            Shoot(isFullAuto);
+        }
+        
+    }
+
+    void Shoot(bool isFullAuto)
+    {
+        
+
+        if (isFullAuto)
+        {
+            //shooting mechanics
+            //GetMouseButton For Full Auto, GetMouseButtonDown for Semi Auto
+            if (Input.GetMouseButton(0) && Time.time > nextfire)
+            {
+                if (currentAmmo > 0)
+                {
+                    Ray ray = viewCam.ViewportPointToRay(new Vector3(.5f, .5f, 0f));//create raycast for shooting
+                    RaycastHit hit;
+                    if (Physics.Raycast(ray, out hit))// if something is hit enter loop
+                    {
+
+                        //Debug.Log("I'm looking at " + hit.transform.name);
+                        Instantiate(bulletImpact, hit.point, transform.rotation);
+
+                        if (hit.transform.tag == "Enemy")
+                        {
+                            hit.transform.parent.GetComponent<EnemyController>().TakeDamage(gunDamage);
+                        }
+                    }
+                    else
+                    {
+
+                        //Debug.Log("I'm looking at nothing");
+                    }
+                    currentAmmo--;
+                    AudioController.instance.PlayGunshot();//play gunshot sound when player shoots
+                    gunAnim.SetTrigger("Fire");
+                    updateAmmoUI();
+                }
+            }
+        }
+        if (!isFullAuto)
+        {
+            //shooting mechanics
+            //GetMouseButton For Full Auto, GetMouseButtonDown for Semi Auto
+            if (Input.GetMouseButtonDown(0))
+            {
+                if (currentAmmo > 0)
+                {
+                    Ray ray = viewCam.ViewportPointToRay(new Vector3(.5f, .5f, 0f));//create raycast for shooting
+                    RaycastHit hit;
+                    if (Physics.Raycast(ray, out hit))// if something is hit enter loop
+                    {
+
+                        //Debug.Log("I'm looking at " + hit.transform.name);
+                        Instantiate(bulletImpact, hit.point, transform.rotation);
+
+                        if (hit.transform.tag == "Enemy")
+                        {
+                            hit.transform.parent.GetComponent<EnemyController>().TakeDamage(gunDamage);
+                        }
+                    }
+                    else
+                    {
+
+                        //Debug.Log("I'm looking at nothing");
+                    }
+                    currentAmmo--;
+                    AudioController.instance.PlayGunshot();//play gunshot sound when player shoots
+                    gunAnim.SetTrigger("Fire");
+                    updateAmmoUI();
+                }
+            }
+        }
+       
+    }
+
+    void DeathCheck()
+    {
+        if (Player.currentHealth <= 0)
+        {
+            hasDied = true;
+        }
+    }
+
+    public void updateAmmoUI()
+    {
+        ammoText.text = currentAmmo.ToString();//Ammo Text
+    }
+
+    //public void WeaponDamage()
+    //{
+    //    gunDamage = baseDamage * damageMultiplier;
+    //}
+
+    public void setAmmo(int amount)
+    {
+        currentAmmo += amount;
+    }
+}
