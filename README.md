@@ -4,5 +4,5 @@
 Developers:
  - Joel Trevizo (Lead Programmer - Gameplay Implementation and Lead Art Design)
  - Javier Blanco (Lead Story and Game Concept, Programmer - AI Behavior)
- - Kent Crisostomo (Programmer - Level Design and UI(Start Menu))
+ - Kent Crisostomo (Lead Level Design and Programmer - UI(Start Menu))
  - Alex Nino (Programmer - UI)
